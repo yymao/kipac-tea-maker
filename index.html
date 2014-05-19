@@ -57,28 +57,37 @@
 
 <body>
   <div class="pure-g">
-    <div class="pure-u-1 pure-u-sm-1-2">
+    <div class="pure-u-1 pure-u-sm-2-5">
       <div class="l-box">
         <form class="pure-form" id="add-arxiv">
           <fieldset>
             <input type="text" name="arxiv-id" placeholder="arXiv ID" />
             <button type="submit" class="pure-button pure-button-primary">Add</button>
-            <select id="matcher">
-              <option value="dima">Dima</option>
-              <option value="yao" selected>Yao</option>
-              <option value="yashar">Yashar</option>
-            </select>
             <span id="status-bar">Loading menu...</span>
           </fieldset>
         </form>
       </div>
     </div>
-    <div class="pure-u-1 pure-u-sm-1-2">
+    <div class="pure-u-1 pure-u-sm-2-5">
       <div class="l-box">
         <p><span id="tea-info"></span>
         [<a href="prepare-email.php">preview email</a>]</p>
       </div>
     </div>
+    <div class="pure-u-1 pure-u-sm-1-5">
+      <div class="l-box">
+        <form class="pure-form">
+          <fieldset>
+            <select id="matcher">
+              <option value="dima">Dima</option>
+              <option value="yao" selected>Yao</option>
+              <option value="yashar">Yashar</option>
+            </select>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+
     <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4">
       <div class="l-box">
         <h3>Candidates</h3>
@@ -159,6 +168,10 @@
           li.children('input').val(data);
           li.children('img').attr('src','search.png');
         }, 'text');
+    });
+
+    $("form").submit(function(event){
+      event.preventDefault();
     });
 
     $("#add-arxiv").submit(function(event){

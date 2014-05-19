@@ -2,8 +2,6 @@
 import cgi
 form = cgi.FieldStorage()
 arxiv_id = form.getvalue('id')
-import sys
-arxiv_id = sys.argv[1]
 
 from tea_arxiv import *
 print "Content-Type: text/plain"
