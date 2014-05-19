@@ -51,5 +51,5 @@ def match(arxiv_id, people, weight=0.5):
             + gram_prod(bfd, person['bfd'])/bfd_norm)*0.5 \
             for person in people]
 
-    return title, scores
+    return scores
 

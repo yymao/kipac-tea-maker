@@ -15,12 +15,10 @@ try:
     with open('people.pkl') as f:
         people = pickle.load(f)
 
-    title, scores = match(arxiv_id, people, 0.6)
+    scores = match(arxiv_id, people, 0.6)
     indices = sorted(xrange(len(scores)), key=lambda i: scores[i], reverse=True)
 
     if form.getvalue('list'):
-        print title
-        print
         for i in indices:
             print people[i]['name'], scores[i]
     else:
