@@ -8,12 +8,13 @@ print
 
 try:
     import subprocess
-    out = subprocess.check_output(['./score.sh', arxiv_id])
+    out = subprocess.check_output(['sh', 'score.sh', arxiv_id])
 
     if form.getvalue('list'):
         print out
     else:
         out = out.splitlines()
+        names = []
         for j, i in enumerate(out):
             if j >= 4:
                 break

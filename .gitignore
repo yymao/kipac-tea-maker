@@ -1,0 +1,3 @@
+*.py[cod]
+/tea-menu.db
+/menu.json
