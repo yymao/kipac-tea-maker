@@ -101,7 +101,14 @@
         }, 'text');
       });
       load_menu(m[0]);
+      window.location.hash = '#' + m[0];
     });
+
+    if (window.location.hash.substr(1)!=''){
+      $("input[name=arxiv-id]").val(window.location.hash.substr(1));
+      $("#add-arxiv").submit();
+    }
+
   </script> 
 </body>
 </html>
