@@ -64,6 +64,10 @@
             <input type="text" name="arxiv-id" placeholder="arXiv ID" />
             <button type="submit" class="pure-button pure-button-primary">Add</button>
             <span id="status-bar">Loading menu...</span>
+            <select id="matcher">
+              <option value="yao">Yao</option>
+              <option value="yashar">Yashar</option>
+            </select>
           </fieldset>
         </form>
       </div>
@@ -148,7 +152,7 @@
     $("ul.sortable").on("click", "img", function(event){
       $(this).attr('src','wait.png');
       var li = $(this).parent();
-      $.post("match_yao/match.py", 
+      $.post("match_"+ $("#matcher").val() + "/match.py", 
         {'id':li.attr('id')}, 
         function(data){
           li.children('input').val(data);
