@@ -8,7 +8,7 @@ print
 
 try:
     import subprocess
-    out = subprocess.check_output['./score.sh', arxiv_id]
+    out = subprocess.check_output(['./score.sh', arxiv_id])
 
     if form.getvalue('list'):
         print out
