@@ -8,6 +8,8 @@ python get_abs2.py > abstract.txt
 
 ./count_words.sh standard_keywords.txt > abstract_vector.txt
 
+#head -n 1 abstract.txt
+
 python get_score.py
 
 

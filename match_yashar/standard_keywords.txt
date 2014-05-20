@@ -7,6 +7,10 @@ South Pole Telescope
 \ LUX
 \ DM
 \ HI\ 
+Segue
+galaxy satellite
+satellites galax
+ultra-faint
 accretion disk
 AGN feedback
 AGN heating
@@ -14,21 +18,24 @@ ALMA
 angular momentum
 anisotropies
 anisotropy
-annihilation 
+dark matter annihilation
+WIMP annihilation
+positron annihilation
+dark matter decay 
 asteroseismology
 astro-H
 astrobiology
 astroparticle
 axions
 b-mode
-BAO
+Neutralino
+\ BAO
+hot Jupiter
 baryonic acoustic oscillations
 baryon acoustic oscillations
 BBN
 BBO
 BICEP
-binaries
-Black holes
 blazars
 BOSS
 Bow Shocks
@@ -39,14 +46,14 @@ caustic
 CDM
 Cepheids
 Chabrier
-Chandra
 charm
 cluster of galax
 \ CMB\ 
 CoGent
 cool core
-cooling
-core collapse 
+gas cooling
+core collapse
+core-collapse 
 cosmic background radiation
 cosmic microwave background
 cosmic ray
@@ -120,6 +127,7 @@ galaxy merging
 gamma ray
 gamma-ray burst
 gamma-ray-loud
+gamma-ray annihilation 
 Gas Mass
 General Relativity
 \ GEO\ 
@@ -133,7 +141,6 @@ globular clusters
 Gravitational Lens
 Gravitational Waves
 gravity waves
-halo
 halo model
 halo bias
 hdm
@@ -143,7 +150,6 @@ high redshift
 HII region
 black hole
 hot dark matter
-Hubble
 Hubble constant
 Hubble radius
 Hydro simulation
@@ -195,7 +201,6 @@ Masers
 mass function
 mass profile
 mean free path
-metallicity
 Micro Lensing
 millimeter
 missing satellite problem
@@ -238,13 +243,15 @@ primordial magnetic field
 primordial power spectrum
 post newtonian
 protostar
+proto-planetary
+proto planetary
+host star
 pulsar
 pulsar timing
 pulsar array
 quasars
 Radiative processes
 Radiative transfer
-radio
 radio astronomy
 radioastronomy
 radio continuum
@@ -267,7 +274,6 @@ Sag A
 Salpeter
 scaling behavior
 scaling relation
-Scattering
 Sloan Digital Sky Survey
 selection bias
 semi-analytical
@@ -291,8 +297,6 @@ Spitzer
 \ SPT
 standard candle
 standard ruler 
-star formation
-star-formation
 starburst
 starspots
 steep-spectrum
@@ -311,7 +315,7 @@ substructure
 \ sun\ 
 sunyaev
 Sunyaev-Zel'dovich
-supermassive black holes
+supermassive black hole
 supernova remnants
 Supernovae
 suprimecam
@@ -323,7 +327,7 @@ Time delay
 TMT
 too big to fail
 topological
-Transient
+\ SN\ 
 tsz
 Turbulence
 ULIRG
@@ -335,9 +339,10 @@ UV sensitive
 Variable
 Veritas
 Virgo
+Planet Imager
 VLBI
 warm dark matter
-WDM
+\ WDM
 Weak gravitational lensing
 Weak Lensing
 White Dwarfs
@@ -347,7 +352,6 @@ X-rays
 X-rays binaries
 X-rays bursts
 X-rays:galaxies
-XMM
 z_p
 z_s
 Very Small Array
