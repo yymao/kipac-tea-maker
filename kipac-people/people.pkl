@@ -67,7 +67,7 @@ g3
 S'Chris D'
 p30
 sg5
-S'Davis_C'
+S'Davis_C_P'
 p31
 sg7
 S'Chris Davis'
@@ -624,10 +624,10 @@ S'Zeesh Ahmed'
 p252
 sa(dp253
 g3
-S'Matthew B'
+S'Matt B'
 p254
 sg5
-S'Becker_M'
+S'Becker_Matthew'
 p255
 sg7
 S'Matthew Becker'

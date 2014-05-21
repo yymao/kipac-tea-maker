@@ -6,6 +6,7 @@ url_base = 'http://export.arxiv.org/api/query?search_query=cat:astro-ph*+AND+au:
 with open('../kipac-people/people.pkl', 'r') as f:
     people = pickle.load(f)
 
+new_people = []
 for person in people:
     root = get_arxiv_xml_root(url_base%person['name_arxiv'])
     wfd_all = {}
@@ -31,8 +32,10 @@ for person in people:
     person['count'] = count
     person['wfd'] = wfd_all
     person['bfd'] = bfd_all
-    print person['name'], person['count']
+    if count:
+        new_people.append(person)
+    print person['name'], person['name_arxiv'], person['count']
 
 with open('people.pkl', 'w') as fo:
-    pickle.dump(people, fo)
+    pickle.dump(new_people, fo)
 

@@ -18,6 +18,15 @@ import cPickle as pickle
 re_name = re.compile(r'/kipac/people/\w+\\\"\\x3e([\w\s-]+)\\x3c')
 
 def change_name_fmt(name):
+    if name == 'Matthew Becker':
+        return 'Matt B', 'Becker_Matthew'
+    elif name == 'Chris Davis':
+        return 'Chris D', 'Davis_C_P'
+    elif name == 'Yashar Hezavehe':
+        return 'Yashar H', 'Hezaveh_Y'
+    elif name == 'Bryant Garcia':
+        return 'Bryant G', 'Garcia_Bryant'
+    
     item = name.split()
     first = item[:-1]
     last = item[-1]
@@ -25,8 +34,6 @@ def change_name_fmt(name):
         first = first[:-1]
         last = 'da ' + last
     last = re.sub('\W', '_', last)
-    if last == 'Hezavehe':
-        last = 'Hezaveh'
     first = ' '.join(first)
     fmt1 = first + ' ' + last[0]
     first = re.split('\W', first)

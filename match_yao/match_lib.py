@@ -32,8 +32,11 @@ def gram_prod(fd1, fd2):
         s += fd1[k]*fd2.get(k, 0)
     return s
 
+def get_arxiv_xml_root(url):
+    return ET.parse(urlopen(url)).getroot()
+
 def get_arxiv_xml_entry(arxiv_id):
-    return ET.parse(urlopen(url_base%arxiv_id)).getroot().find(xml_prefix+'entry')
+    return get_arxiv_xml_root(url_base%arxiv_id).find(xml_prefix+'entry')
 
 def match(entry, people, weight=0.5):
     title = entry.find(xml_prefix+'title').text
