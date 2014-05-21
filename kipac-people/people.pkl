@@ -97,7 +97,7 @@ g3
 S'Bryant G'
 p42
 sg5
-S'Garcia_B'
+S'Garcia_Bryant'
 p43
 sg7
 S'Bryant Garcia'
@@ -307,7 +307,7 @@ g3
 S'Kimmy W'
 p126
 sg5
-S'Wu_Kimmy'
+S'Wu_W_L_K'
 p127
 sg7
 S'Kimmy Wu'
@@ -484,10 +484,10 @@ S'Steve Kahn'
 p196
 sa(dp197
 g3
-S'Chao-Lin K'
+S'Chao-Lin'
 p198
 sg5
-S'Kuo_Chao_Lin'
+S'Kuo_C_L'
 p199
 sg7
 S'Chao-Lin Kuo'
@@ -1502,4 +1502,104 @@ p603
 sg7
 S'Ki Won Yoon'
 p604
+sa(dp605
+g3
+S'Jonathan A'
+p606
+sg5
+S'Arons_J'
+p607
+sg7
+S'Jonathan Arons'
+p608
+sa(dp609
+g3
+S'Pisin C'
+p610
+sg5
+S'Chen_Pisin'
+p611
+sg7
+S'Pisin Chen'
+p612
+sa(dp613
+g3
+S'Mandeep G'
+p614
+sg5
+S'Gill_Mandeep'
+p615
+sg7
+S'Mandeep Gill'
+p616
+sa(dp617
+g3
+S'Garret J'
+p618
+sg5
+S'Jernigan_G'
+p619
+sg7
+S'Garret Jernigan'
+p620
+sa(dp621
+g3
+S'Hee-Won L'
+p622
+sg5
+S'Lee_Hee_Won'
+p623
+sg7
+S'Hee-Won Lee'
+p624
+sa(dp625
+g3
+S'Ramani P'
+p626
+sg5
+S'Pilla_R'
+p627
+sg7
+S'Ramani Pilla'
+p628
+sa(dp629
+g3
+S'Steven R'
+p630
+sg5
+S'Ritz_Steven'
+p631
+sg7
+S'Steven Ritz'
+p632
+sa(dp633
+g3
+S'Malvin R'
+p634
+sg5
+S'Ruderman_M'
+p635
+sg7
+S'Malvin Ruderman'
+p636
+sa(dp637
+g3
+S'Jeff S'
+p638
+sg5
+S'Scargle_J'
+p639
+sg7
+S'Jeff Scargle'
+p640
+sa(dp641
+g3
+S'Prajval S'
+p642
+sg5
+S'Shastri_P'
+p643
+sg7
+S'Prajval Shastri'
+p644
 sa.

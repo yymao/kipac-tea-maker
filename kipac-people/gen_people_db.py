@@ -9,6 +9,7 @@ http://kipac.stanford.edu/kipac/views/ajax?field_person_display_name_value=&type
 http://kipac.stanford.edu/kipac/views/ajax?field_person_display_name_value=&type=2837&field_person_membership2_nid=All&location=All&view_name=people_list&view_display_id=page_1&view_args=&view_path=people&view_base_path=people&view_dom_id=2&pager_element=0
 http://kipac.stanford.edu/kipac/views/ajax?js=1&page=1&type=2837&field_person_membership2_nid=All&location=All&view_name=people_list&view_display_id=page_1&view_path=people&view_base_path=people&view_dom_id=2&pager_element=0&view_args=
 http://kipac.stanford.edu/kipac/views/ajax?js=1&page=2&type=2837&field_person_membership2_nid=All&location=All&view_name=people_list&view_display_id=page_1&view_path=people&view_base_path=people&view_dom_id=2&pager_element=0&view_args=
+http://kipac.stanford.edu/kipac/views/ajax?field_person_display_name_value=&type=2833&field_person_membership2_nid=All&location=All&view_name=people_list&view_display_id=page_1&view_args=&view_path=people&view_base_path=people&view_dom_id=2&pager_element=0
 """.splitlines()[1:]
 
 import re
@@ -26,7 +27,10 @@ def change_name_fmt(name):
         return 'Yashar H', 'Hezaveh_Y'
     elif name == 'Bryant Garcia':
         return 'Bryant G', 'Garcia_Bryant'
-    
+    elif name == 'Chao-Lin Kuo':
+        return 'Chao-Lin', 'Kuo_C_L'
+    elif name == 'Kimmy Wu':
+        return 'Kimmy W', 'Wu_W_L_K'
     item = name.split()
     first = item[:-1]
     last = item[-1]
