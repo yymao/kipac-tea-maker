@@ -32,12 +32,10 @@ def gram_prod(fd1, fd2):
         s += fd1[k]*fd2.get(k, 0)
     return s
 
-def get_arxiv_xml_root(query_url):
-    return ET.parse(urlopen(query_url)).getroot()
+def get_arxiv_xml_entry(arxiv_id)
+    return ET.parse(urlopen(url_base%arxiv_id)).getroot().find(xml_prefix+'entry')
 
-def match(arxiv_id, people, weight=0.5):
-    root = get_arxiv_xml_root(url_base%arxiv_id)
-    entry = root.find(xml_prefix+'entry')
+def match(entry, people, weight=0.5):
     title = entry.find(xml_prefix+'title').text
     if title == 'Error':
         raise ValueError
