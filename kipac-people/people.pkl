@@ -927,7 +927,7 @@ g3
 S'Debbie B'
 p374
 sg5
-S'Bard_Debbie'
+S'Bard_D'
 p375
 sg7
 S'Debbie Bard'

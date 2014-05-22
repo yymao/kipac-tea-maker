@@ -31,6 +31,8 @@ def change_name_fmt(name):
         return 'Chao-Lin', 'Kuo_C_L'
     elif name == 'Kimmy Wu':
         return 'Kimmy W', 'Wu_W_L_K'
+    elif name == 'Debbie Bard':
+        return 'Debbie B', 'Bard_D'
     item = name.split()
     first = item[:-1]
     last = item[-1]
